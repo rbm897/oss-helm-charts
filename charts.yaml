@@ -42,4 +42,4 @@ charts:
 - name: bitnami
   url: https://charts.bitnami.com/bitnami
   path: airflow
-  version: 13.1.3
+  version: 24.0.1
