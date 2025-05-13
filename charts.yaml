@@ -39,3 +39,7 @@ charts:
   url: https://helm.releases.hashicorp.com
   path: vault
   version: 0.29.1
+- name: bitnami
+  url: https://charts.bitnami.com/bitnami
+  path: airflow
+  version: 13.1.3
