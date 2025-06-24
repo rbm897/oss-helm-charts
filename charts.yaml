@@ -43,3 +43,7 @@ charts:
   url: https://charts.bitnami.com/bitnami
   path: airflow
   version: 24.0.1
+- name: bitnami
+  url: https://charts.bitnami.com/bitnami
+  path: cassandra
+  version: 12.3.8
