@@ -47,3 +47,11 @@ charts:
   url: https://charts.bitnami.com/bitnami
   path: cassandra
   version: 12.3.8
+- name: bitnami
+  url: https://charts.bitnami.com/bitnami
+  path: keycloak
+  version: 24.7.4
+- name: opensearch
+  url: https://opensearch-project.github.io/helm-charts
+  path: opensearch
+  version: 3.1.0
