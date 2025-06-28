@@ -1,57 +1,58 @@
 charts:
 - name: apache-airflow
   url: https://airflow.apache.org
-  path: airflow
+  chart: airflow
   version: 1.15.0
+- name: apache-airflow
+  url: https://airflow.apache.org
+  chart: airflow
+  path: airflow-v3
+  version: 1.17.0
 - name: external-secrets
   url: https://charts.external-secrets.io/
-  path: external-secrets
+  chart: external-secrets
   version: 0.15.0
 - name: prometheus-community
   url: https://prometheus-community.github.io/helm-charts
-  path: kube-prometheus-stack
+  chart: kube-prometheus-stack
   version: 69.8.2
 - name: prometheus-community
   url: https://prometheus-community.github.io/helm-charts
-  path: prometheus-operator-crds
+  chart: prometheus-operator-crds
   version: 19.0.0
 - name: kubernetes-dashboard
   url: https://kubernetes.github.io/dashboard
-  path: kubernetes-dashboard
+  chart: kubernetes-dashboard
   version: 6.0.8
 - name: bitnami
   url: https://charts.bitnami.com/bitnami
-  path: minio
+  chart: minio
   version: 15.0.3
 - name: runix
   url: https://helm.runix.net
-  path: pgadmin4
+  chart: pgadmin4
   version: 1.36.0
 - name: bitnami
   url: https://charts.bitnami.com/bitnami
-  path: postgresql
+  chart: postgresql
   version: 16.7.2
 - name: sonarqube
   url: https://SonarSource.github.io/helm-chart-sonarqube
-  path: sonarqube
+  chart: sonarqube
   version: 2025.2.0
 - name: hashicorp
   url: https://helm.releases.hashicorp.com
-  path: vault
+  chart: vault
   version: 0.29.1
 - name: bitnami
   url: https://charts.bitnami.com/bitnami
-  path: airflow
-  version: 24.0.1
-- name: bitnami
-  url: https://charts.bitnami.com/bitnami
-  path: cassandra
+  chart: cassandra
   version: 12.3.8
 - name: bitnami
   url: https://charts.bitnami.com/bitnami
-  path: keycloak
+  chart: keycloak
   version: 24.7.4
 - name: opensearch
   url: https://opensearch-project.github.io/helm-charts
-  path: opensearch
+  chart: opensearch
   version: 3.1.0
